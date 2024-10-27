@@ -71,7 +71,8 @@ Developed by: Register Number*/
       (The path of cshrc could vary depending on the installation destination)
       
 	After this you can see the window like below 
-![image](https://github.com/user-attachments/assets/e11112c3-b943-47b2-ac1e-35cba9c51f93)
+![Screenshot (20)](https://github.com/user-attachments/assets/3b425776-7c62-4a10-b0f0-ddee9093474e)
+
 
 
 ### Fig 3:Invoke the Cadence Environment
@@ -85,7 +86,8 @@ or
 •	linux:/> nclaunch& // On subsequent calls to NCVERILOG 
 
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
-![image](https://github.com/user-attachments/assets/cb5a170e-7c7c-4ed1-bf5f-b30063c3aed6)
+![Screenshot (21)](https://github.com/user-attachments/assets/813da635-ca7d-4f19-b5f1-47c38f573cc2)
+
 
 
 ### Fig 4:Setting Multi-step simulation
@@ -93,7 +95,8 @@ or
 	Select Multiple Step and then select “Create cds.lib File” .
 
 	Click the cds.lib file and save the file by clicking on Save option 
-![image](https://github.com/user-attachments/assets/cdc4fee2-4c90-471a-aa75-016b8e9394f7)
+![Screenshot (22)](https://github.com/user-attachments/assets/fc48ab5a-8c3f-4e02-992c-b8283246ab00)
+
 
 
 ### Fig 5:cds.lib file Creation
@@ -146,7 +149,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	Select the test bench and compile it. It will come under worklib. Under Worklib you can see the module and test-bench. 
 
 	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located. It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
-![image](https://github.com/user-attachments/assets/df931cf7-2161-4049-b3ea-5366f926f0bb)
+![Screenshot (28)](https://github.com/user-attachments/assets/6e6ca4ce-099d-4a42-95c3-84ccae976858)
+
 
 
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
@@ -179,15 +183,19 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	Steps for simulation – Run the simulation command with simulator options
 
 ### Fig 10: Design Browser window for simulation
-![Screenshot 2024-10-16 182011](https://github.com/user-attachments/assets/81fc3756-cb37-40e9-95e3-a1a26cb38bb5)
+![Screenshot (28)](https://github.com/user-attachments/assets/c4931a23-2a7f-42d4-bb5e-36bb1961f14f)
+
 
 
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
-![Screenshot 2024-10-16 182409](https://github.com/user-attachments/assets/fc201c75-4757-4d7e-a02c-9bc60936516e)
+![Screenshot (30)](https://github.com/user-attachments/assets/1523f723-c1e9-4e0c-855a-72e434ea3ace)
+
+
 
 
 ### Fig 12: Simulation Waveform Window
-![Screenshot 2024-09-23 145238](https://github.com/user-attachments/assets/59971c7c-dc90-4a84-ac51-c246212a1d94)
+![Screenshot (31)](https://github.com/user-attachments/assets/409c6d4b-ae8b-4578-b703-c872ae09a37d)
+
 
 
 
